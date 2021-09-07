@@ -123,3 +123,91 @@ article p {
   line-height: 30px;
   padding: 6px 0 60px;
 }
+
+.program_section {
+  width: 100%;
+  background-color: var(--text-color);
+  background-image: url(../images/mission.png);
+  background-position: top left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* padding: 24px; */
+}
+
+.program_section h2 {
+  color: var(--primary);
+  text-align: center;
+  padding: 32px;
+}
+
+.program_section h2::after {
+  content: " ";
+  display: block;
+  max-width: 68px;
+  height: 3px;
+  margin: 14px auto 0;
+  background-color: var(--secondary);
+}
+
+.program_section .program {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 14px;
+  /* grid-auto-rows: calc(474px + 20px); */
+  padding: 10px 2%;
+}
+
+.program li {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  background-color: #acacac1f;
+}
+
+.program li img {
+  width: 60px;
+}
+
+.program li h3 {
+  width: 30%;
+  color: var(--secondary);
+  padding: 10px;
+  flex-wrap: wrap;
+  /* background-color: aliceblue; */
+}
+
+.program li p {
+  width: 50%;
+  color: var(--primary);
+  font-size: 0.99rem;
+  line-height: 26px;
+  /* background-color: aqua; */
+}
+
+.btn-program {
+  width: 100%;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.program_section button {
+  display: inline-block;
+  border: none;
+  font-size: 2rem;
+  padding: 22px 34px;
+  color: var(--primary);
+  background-color: var(--secondary);
+}
+
+/* header h1 { 
+  background-image: url('Images/Orange-Background.jpg'); 
+  background-position: bottom center; 
+  background-size: contain; 
+  background-clip: text;
+   -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  color: transparent;
+}  */
