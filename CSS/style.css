@@ -74,3 +74,52 @@ main {
 ul {
   list-style: none;
 }
+
+.home_section {
+  padding: 80px 24px 0;
+  background-color: var(--primary);
+  opacity: 0.9;
+  background-image: linear-gradient(rgba(206, 205, 205, 0.698), rgb(220, 224, 220)), url('../images/home-mobile.jpg');
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.home_section_title {
+  color: var(--secondary);
+}
+
+.home_section_title h2 {
+  font-size: 40px;
+  font-weight: var(--weight);
+  line-height: 52px;
+  padding: 12px 0;
+}
+
+.home_section_title h1 {
+  font-size: 48px;
+  font-weight: var(--weight);
+  line-height: 60px;
+}
+
+article p {
+  border: 3px solid rgb(255, 255, 255);
+  padding: 20px;
+  font-weight: var(--weight);
+  margin: 20px 0;
+  font-size: 0.99rem;
+  line-height: 30px;
+}
+
+.info h3 {
+  color: var(--text-color);
+  font-weight: 900;
+  font-size: 32px;
+}
+
+.info p {
+  color: var(--text-color);
+  font-size: 0.99rem;
+  line-height: 30px;
+  padding: 6px 0 60px;
+}
