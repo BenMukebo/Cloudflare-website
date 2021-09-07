@@ -6,30 +6,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Capstone Project</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
-  <link rel="stylesheet" href=".CSS/style.css">
+  <link rel="stylesheet" href="./CSS/style.css">
 </head>
 <body>
   <header class="header">
     <nav class="social_media">
-        <ul class="media-nav">
-          <li class="media_link"><a href="#"><i class="fa fa-facebook"></i></a></li>
-          <li class="media_link"><a href="#"><i class="fa fa-twitter"></i></a></li>
-          <li class="media_link"><a href="#">English</a></li>
-          <li class="media_link"><a href="#">My page</a></li>
-          <li class="media_link"><a href="#">Logout</a></li>
-        </ul>
-      </nav>
-      <!-- <img src="./images/icons/Union.png" class="show-menu-btn" alt="union"> -->
-      <!-- <img src="./images/icons/Icon@2x.svg" class="closed-menu-btn" alt=""> -->
-      <div class="hamburger">
-          <a href="#" class="show-menu"><i class="fa fa-bars"></i></a>
-          <a href="#" class="hide-menu"><i class="fa fa-times"></i></a>
-      </div>
-      <nav class="nav">
+      <ul class="media-nav">
+        <li class="media_link"><a href="#"><i class="fa fa-facebook"></i></a></li>
+        <li class="media_link"><a href="#"><i class="fa fa-twitter"></i></a></li>
+        <li class="media_link"><a href="#">English</a></li>
+        <li class="media_link"><a href="#">My page</a></li>
+        <li class="media_link"><a href="#">Logout</a></li>
+      </ul>
+    </nav>
+
+    <nav class="header-nav">
+      <div class="nav_desk">
         <div class="logo">
-          <img src="./images/header-logo.png" alt="">
+          <!-- <img src="./images/header-logo.png" alt="logo"> -->
+          <img class="firelazyloader" src="https://fireartstudio.s3-accelerate.amazonaws.com/img/last-img.svg">
           <p>Fireart</p>
-          <!-- <img class="firelazyloader" src="https://fireartstudio.s3-accelerate.amazonaws.com/img/last-img.svg">        </div> -->
+        </div>
         <ul class="nav_menu">
           <li class="nav_menu_link active"><a href="#About">About</a></li>
           <li class="nav_menu_link"><a href="#Portfolio">Program</a></li>
@@ -38,53 +35,82 @@
           <li class="nav_menu_link"><a href="#Contact">News</a></li>
         </ul>
         <div><h2>Company</h2></div>
-      </nav>
+      </div>
+      <div class="nav_mobile">
+        <!-- <a href="#" class="hide-menu"><i class="fa fa-times fa-2x"></i></a>
+        <a href="#" class="show-menu"><i class="fa fa-bars fa-2x"></i></a> -->
+        <img src="./images/icons/Union.png" class="show-menu-btn" alt="union">
+        <img src="./images/icons/Icon@2x.svg" class="closed-menu-btn" alt="">
+      </div>
+    </nav>
   </header>
 
   <main>
-      <section class="home_section">
-          <div>
-              <h2>"Hello! Sharing world"</h2>
-              <h1>FOR THOSE WHO NEED TECHNOLOGY TO REVEAL THE BEAUTY OF PRODUCTS</h1>
-          </div>
-          <article>
-              <p>Fireart Studio is a boutique design and software development company. We have 50+ JS and design experts on board and 6+ years of experience in building digital projects from scratch or refreshing existing ones.</p>
-          </article>
-          <div>
-            <p>Please contact us per Email for more questions about Honestly adoption Company!</p>
-            <a href="#">l.benkasmukebo7@gmail.com</a>
-          </div>
-      </section>
-      <section class="program_section">
-          <h2>Why Choose Us?</h2>
-          <ul>
-              <li class="work_1">
+    <section class="home_section">
+      <div class="home_section_title">
+          <h2>"Hello! Sharing world"</h2>
+          <h1>FOR THOSE WHO NEED TECHNOLOGY TO REVEAL THE BEAUTY OF PRODUCTS</h1>
+      </div>
+      <article>
+          <p>Fireart Studio is a boutique design and software development company. We have 50+ JS and design experts on board and 6+ years of experience in building digital projects from scratch or refreshing existing ones.</p>
+      </article>
+      <div>
+        <div class="info">
+          <h3>Day work (MOND) ~ (SUN)</h3>
+          <p>@ Full-Cycle product Development</p>
+        </div>
+      </div>
+      <!-- <div>
+        <p>Please contact us per Email for more questions about Fireart Studio Company!</p>
+        <a href="#">l.benkasmukebo7@gmail.com</a>
+      </div> -->
+    </section>
+    <section class="program_section">
+        <h2>Why Choose Us?</h2>
+        <ul class="program">
+            <li class="program_1">
+              <div>
                 <img src="https://fireart.studio/wp-content/uploads/2019/12/ic-choose-1.svg" alt="agile">
-                  <h3>Agile team of JS programmers</h3>
-                  <p>An experienced team dedicated to only your project. There is no micromanagement. You can communicate directly with a team leader who tackles all the problems and keeps track of timely product delivery.</p>
-              </li>
-              <li class="work_2">
+              </div>
+              <h3>Agile team </h3>
+              <p>An experienced team dedicated to only your project. There is no micromanagement. </p>
+            </li>
+            <li class="program_2">
+              <div>
                 <img src="https://fireart.studio/wp-content/uploads/2019/12/ic-choose-2.svg" alt="focus">
-                <h3>Specialization and focus on JS</h3>
-                <p>You will deal with a team of seasoned professionals who have been working together for many years and understand each other. Effective communication allows us to speed up delivery and avoid a number of errors.</p>
-              </li>
-              <li class="work_3">
+              </div>
+              <h3>Specialization on JS</h3>
+              <p>You will deal with a team of seasoned professionals who have been programing together for many years and understand each other. </p>
+            </li>
+            <li class="program_3">
+              <div>
                 <img src="https://fireart.studio/wp-content/uploads/2019/12/ic-choose-3.svg" alt="quality">
-                <h3>Combined efforts of the best quality designers and developers</h3>
-                <p>As we started from design many years ago, we rank on Dribbble as 1 of the 10 best design studios around the world. We care about the design and frontend appearance of the project. We believe in beautiful software.</p>
-              </li>
-              <li class="work_4">
+              </div>
+              <h3>B.Quality designers</h3>
+              <p>As we started from design many years ago, we rank on Dribbble as 1 of the 10 best design studios around the world. </p>
+            </li>
+            <li class="program_4">
+              <div>
                 <img src="https://fireart.studio/wp-content/uploads/2019/12/ic-choose-4.svg" alt="creation">
-                <h3>We take a complex approach to product creation</h3>
-                <p>Our team brings together designers, software developers, QA engineers, and illustrators. Applying our multifaceted team's skillset, we will help you overcome the trickiest product development challenges.</p>
-              </li>
-              <li class="work_5">
+              </div>
+              <h3>Complex approach</h3>
+              <p>Our team brings together designers, software developers, QA engineers, and illustrators. </p>
+            </li>
+            <li class="program_5">
+              <div>
                 <img src="https://fireart.studio/wp-content/uploads/2019/12/ic-choose-8.svg" alt="time">
-                <h3>Get the best quality code within short timeframes</h3>
-                <p>Our developers are featured as the best by TopCoder. We are skilled in Angular, React, Node, Vue, and other JS frameworks. Since 2013, we have already ticketed over 50,000 person-hours.</p>
-              </li>
-          </ul>
-      </section>
+              </div>
+              <h3>Short timeframes</h3>
+              <p>Our developers are featured as the best by TopCoder. Since 2013, we have already ticketed over 50,000 person-hours.</p>
+            </li>
+        </ul>
+        <div class="btn-program">
+          <button type="button">Join Fireart comminity </button>
+        </div>
+    </section>
+    <section class="featured">
+      <h2>featured Speakers</h2>
+    </section>
   </main>
 </body>
 </html>
