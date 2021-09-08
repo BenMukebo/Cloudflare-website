@@ -342,3 +342,37 @@ li .card-body p{
   padding: 3rem 0;
   margin-top: 3rem;
 }
+
+.partners_section h2 {
+  color: var(--primary);
+  text-align: center;
+  padding: 32px;
+}
+
+.partners_section h2::after {
+  content: " ";
+  display: block;
+  max-width: 38px;
+  height: 2px;
+  margin: 14px auto 0;
+  background-color: var(--secondary);
+}
+
+.partner-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.partner-list li {
+  margin: 1rem 1rem;
+  width: 150px;
+}
+
+.partner-list li img {
+  width: 100%;
+  color: var(--primary);
+}
