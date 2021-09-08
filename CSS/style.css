@@ -376,3 +376,36 @@ li .card-body p{
   width: 100%;
   color: var(--primary);
 }
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding: 3rem 0;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+footer .logo {
+  height: 6rem;
+  width: 10rem;
+  margin: 0 1rem;
+  flex-shrink: 0;
+}
+
+footer .logo img {
+  width: 100%;
+  height: auto;
+  color: var(--text-color);
+}
+
+footer .created {
+  width: 40%;
+  /* flex-grow: 2; */
+  margin: 1rem;
+}
+
+footer .created p {
+  color: var(--text-color);
+}
