@@ -331,3 +331,14 @@ li .card-body p{
 .see-more button i {
   color: var(--secondary);
 }
+
+
+
+
+.partners_section {
+  width: 100%;
+  background-color: var(--text-color);
+  opacity: 0.9;
+  padding: 3rem 0;
+  margin-top: 3rem;
+}
