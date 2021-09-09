@@ -489,3 +489,18 @@ footer .created {
 footer .created p {
   color: var(--text-color);
 }
+
+@media screen and (min-width: 768px) {
+  .home_section {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .featured_section .teams {
+    width: 90%;
+    max-width: 920px;
+    margin: 0 auto;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+  }
+}
