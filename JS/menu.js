@@ -35,3 +35,16 @@ navLinks.forEach((link) => {
 
 showBtn.addEventListener('click', showMenu);
 closedBtn.addEventListener('click', closeMenu);
+
+// 
+
+const header = document.getElementsByTagName('header')[0];
+
+window.addEventListener('scroll', () => {
+  console.log(window.pageYOffset);
+  if (window.pageYOffset > 50) {
+    header.classList.add('backg');
+  } else {
+    header.classList.remove('backg');
+  }
+});
