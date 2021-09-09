@@ -4,7 +4,6 @@ const closedBtn = document.querySelector('nav .closed-menu-btn');
 const navMenu = document.querySelector('nav .nav_menu');
 const navLinks = document.querySelectorAll('nav .nav_menu li');
 
-
 function showMenu() {
   navMenu.classList.add('open');
   navMenu.classList.remove('hide');
@@ -36,15 +35,14 @@ navLinks.forEach((link) => {
 showBtn.addEventListener('click', showMenu);
 closedBtn.addEventListener('click', closeMenu);
 
-// 
+// background header scroll
 
-const header = document.getElementsByTagName('header')[0];
+const nav = document.querySelector('header .menu');
 
 window.addEventListener('scroll', () => {
-  console.log(window.pageYOffset);
   if (window.pageYOffset > 50) {
-    header.classList.add('backg');
+    nav.classList.add('backg');
   } else {
-    header.classList.remove('backg');
+    nav.classList.remove('backg');
   }
 });
