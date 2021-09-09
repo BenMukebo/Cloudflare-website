@@ -608,4 +608,57 @@ footer .created p {
   }
 }
 
+@media screen and (min-width: 1100px) {
+  .program_section .program {
+    width: 1040px;
+    margin: 0 auto;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 7px;
+    text-align: center;
+    grid-auto-rows: 250px;
+  }
 
+  .program li {
+    width: 200px;
+    justify-self: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 16px 8px 6px;
+  }
+
+  .program li:hover {
+    border: 3px solid var(--primary);
+    cursor: pointer;
+  }
+
+  .program li img {
+    width: 50px;
+  }
+
+  .program li h3 {
+    width: 100%;
+    padding: 10px 0;
+    flex-wrap: nowrap;
+  }
+
+  .program li p {
+    width: 100%;
+  }
+
+  .program_section button {
+    display: none;
+  }
+
+  .program_section a {
+    display: block;
+    color: var(--primary);
+    font-size: 18px;
+    margin: 20px auto;
+  }
+
+  .featured_section .teams {
+    max-width: 1040px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
