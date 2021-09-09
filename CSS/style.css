@@ -508,3 +508,104 @@ footer .created p {
     grid-gap: 30px;
   }
 }
+
+@media screen and (min-width: 992px) {
+  header .social_media {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 3;
+    background-color: var(--text-color);
+  }
+
+  header .social_media ul {
+    justify-content: flex-end;
+    margin-right: 9%;
+  }
+  
+  .social_media ul li {
+    padding: 10px 14px;
+  }
+
+  .social_media ul li a {
+    color: var(--primary);
+    text-decoration: none;
+    font-size: 14px;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .social_media ul li a:hover {
+    color: var(--secondary);
+  }
+
+  .hamburger .show-menu-btn {
+    display: none;
+  }
+
+  header .hamburger {
+    position: fixed;  
+    top: 40px;
+    left: 0;
+    right: 0;
+    justify-content: space-around;
+    z-index: 2;
+  }
+
+  nav .logo {
+    display: block;
+  }
+
+  header nav.backg {
+    height: 120px;
+    background-color: var(--primary);
+  }
+
+  nav .nav_menu {
+    visibility: visible;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    position: static;
+    transition: all 1s ease-in-out;
+    transform: translateY(0%);
+  }
+
+  nav .nav_menu li {
+    font-size: 22px;
+    font-weight: 500;
+    margin: 12px;
+  }
+
+  nav .nav_menu li.active a {
+    color: var(--secondary);
+  }
+
+  .home_section {
+    padding-top: calc(80px + 92px);
+  }
+
+
+  .home_section_title h2 {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 60px;
+  }
+  
+  .home_section_title h1 {
+    font-size: 60px;
+    line-height: 78px;
+  }
+
+  article p {
+    width: 90%;
+  }
+
+  .program_section h2,
+  .featured_section h2 {
+    padding: 52px;
+  }
+}
+
+
