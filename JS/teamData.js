@@ -60,3 +60,23 @@ const data = [
     work: 'Lorem ipsum, consectetur adipisicing elit.Perferendis asperiores, quo distinctio, atque, quasi nobis.',
   }, 
 ];
+
+const htmls = document.getElementsByTagName('html')[0];
+const teamContainer = document.querySelector('#Team .teams');
+
+// Implementing the Flex card dynamically
+
+function createCard(dataInfo) {
+  const li = document.createElement('li');
+    li.className = 'card d-flex';
+    li.innerHTML = `<div class="card-img">
+    <img src="${dataInfo.images.img}" alt="${dataInfo.images.alt}">
+  </div>
+  <div class="card-body">
+    <h3>${dataInfo.name}</h3>
+    <h4>${dataInfo.about}</h4>
+    <p>${dataInfo.work}</p>
+  </div>`;
+    return li;
+  }
+  
