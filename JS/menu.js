@@ -13,3 +13,17 @@ function showMenu() {
   }, 1000);
   html.style.overflow = 'hidden';
 }
+
+function closeMenu() {
+  navMenu.classList.remove('open');
+  navMenu.classList.add('hide');
+  setTimeout(() => {
+    closedBtn.style.display = 'none';
+  }, 500);
+  html.style.overflow = 'auto';
+}
+
+
+
+showBtn.addEventListener('click', showMenu);
+closedBtn.addEventListener('click', closeMenu);
