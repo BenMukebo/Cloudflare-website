@@ -80,3 +80,14 @@ function createCard(dataInfo) {
     return li;
   }
   
+  data.forEach((info) => {
+    const card = createCard(info);
+    teamContainer.appendChild(card);
+  });
+
+
+// const moreBtn = document.querySelector('#Team button');
+// const lessdBtn = document.querySelector('nav .closed-menu-btn');
+// const navMenu = document.querySelector('nav .nav_menu');
+// const navLinks = document.querySelectorAll('nav .nav_menu li');
+
