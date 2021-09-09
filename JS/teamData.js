@@ -64,6 +64,7 @@ const data = [
 const htmls = document.getElementsByTagName('html')[0];
 const teamContainer = document.querySelector('#Team .teams');
 
+
 // Implementing the Flex card dynamically
 
 function createCard(dataInfo) {
@@ -86,8 +87,43 @@ function createCard(dataInfo) {
   });
 
 
-// const moreBtn = document.querySelector('#Team button');
-// const lessdBtn = document.querySelector('nav .closed-menu-btn');
-// const navMenu = document.querySelector('nav .nav_menu');
-// const navLinks = document.querySelectorAll('nav .nav_menu li');
+// Implementing the Flex card dynamically
+
+const teamList = document.querySelectorAll('#Team .teams li');
+const moreBtn = document.querySelector('#Team button');
+const btnSpan = document.querySelector('#Team button span');
+const btnIcon = document.querySelector('#Team button i');
+
+let state = false;
+
+function displayMore(e) {
+  if(!state){
+    console.log('if');
+    teamList.forEach(team => {
+      team.style.display = 'flex';
+    });
+    btnSpan.textContent = 'LESS';
+    btnIcon.classList.remove('fa', 'fa-chevron-down')
+    btnIcon.classList.add('fa', 'fa-chevron-up')
+
+    state = true;
+  }
+
+  else{
+    console.log('else');
+    teamList.forEach(team => {
+      team.style.display = 'none';
+    });
+    teamList[0].style.display = 'flex';
+    teamList[1].style.display = 'flex';
+
+    btnSpan.textContent = 'MORE';
+    btnIcon.classList.remove('fa', 'fa-chevron-up')
+    btnIcon.classList.add('fa', 'fa-chevron-down')
+  
+    state = false;
+  }
+}
+
+moreBtn.addEventListener('click', displayMore);
 
