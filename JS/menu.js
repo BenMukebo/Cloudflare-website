@@ -4,3 +4,12 @@ const closedBtn = document.querySelector('nav .closed-menu-btn');
 const navMenu = document.querySelector('nav .nav_menu');
 const navLinks = document.querySelectorAll('nav .nav_menu li');
 
+
+function showMenu() {
+  navMenu.classList.add('open');
+  navMenu.classList.remove('hide');
+  setTimeout(() => {
+    closedBtn.style.display = 'block';
+  }, 1000);
+  html.style.overflow = 'hidden';
+}
