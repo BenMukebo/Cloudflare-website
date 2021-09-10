@@ -114,6 +114,7 @@ nav .nav_menu {
 .partner-list li img {
   width: 100%;
   color: var(--primary);
+  cursor: pointer;
 }
 
 .image-list li {
@@ -303,6 +304,7 @@ footer .logo img {
   width: 100%;
   height: auto;
   color: var(--text-color);
+  cursor: pointer;
 }
 
 .image-list li img {
@@ -425,6 +427,7 @@ footer .logo img {
 footer {
   width: 100%;
   justify-content: space-around;
+  text-align: center;
   padding: 3rem 0;
   margin: 0 auto;
   background-color: #fff;
@@ -437,6 +440,7 @@ footer .created {
 
 footer .created p {
   color: var(--text-color);
+  text-align: left;
 }
 
 @media screen and (min-width: 768px) {

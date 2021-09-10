@@ -419,6 +419,12 @@ li .card-body p {
   color: var(--secondary);
 }
 
+.see-more button:hover,
+.see-more button:hover i {
+  color: var(--primary);
+  background-color: var(--secondary);
+}
+
 .partners_section {
   width: 100%;
   background-color: var(--text-color);
@@ -450,11 +456,13 @@ li .card-body p {
 .partner-list li img {
   width: 100%;
   color: var(--primary);
+  cursor: pointer;
 }
 
 footer {
   width: 100%;
   justify-content: space-around;
+  text-align: center;
   padding: 3rem 0;
   margin: 0 auto;
   background-color: var(--background);
@@ -471,6 +479,7 @@ footer .logo img {
   width: 100%;
   height: auto;
   color: var(--text-color);
+  cursor: pointer;
 }
 
 footer .created {
@@ -480,6 +489,7 @@ footer .created {
 
 footer .created p {
   color: var(--text-color);
+  text-align: left;
 }
 
 @media screen and (min-width: 768px) {
