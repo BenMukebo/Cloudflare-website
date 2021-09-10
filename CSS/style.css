@@ -268,11 +268,9 @@ article h4 {
 
 .program_section {
   width: 100%;
-  background-color: var(--text-color);
-  background-image: url("../images/mission.png");
-  background-position: top left;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
+  background-color: rgba(39, 42, 50, 0.993);
+  background-image: url("../images/main-program-bg.png");
   padding: 10px 2%;
 }
 
