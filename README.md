@@ -41,7 +41,7 @@ Cloudflare has more than 50+ experienced designers and JS developers on board, w
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://benmukebo.github.io/Capstone_Project_One/)
 
 ## Loom Video
 
