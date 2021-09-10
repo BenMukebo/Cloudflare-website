@@ -103,9 +103,7 @@ nav .nav_menu {
   width: 100%;
   min-height: 110px;
   justify-self: center;
-  display: flex;
   justify-content: space-around;
-  align-items: center;
   padding: 6px;
   background-color: #acacac1f;
 }
@@ -209,6 +207,7 @@ h2 {
   font-size: 24px;
   font-weight: 600;
   line-height: 32px;
+  padding: 32px;
 }
 
 .home_section {
@@ -280,7 +279,6 @@ article h4 {
 .program_section h2 {
   color: var(--primary);
   text-align: center;
-  padding: 32px;
 }
 
 .program_section h2::after {
@@ -343,7 +341,7 @@ article h4 {
 .featured_section h2 {
   color: var(--text-color);
   text-align: center;
-  padding: 32px;
+  padding: 62px;
 }
 
 .featured_section h2::after {
@@ -432,7 +430,6 @@ li .card-body p {
 .partners_section h2 {
   color: var(--primary);
   text-align: center;
-  padding: 32px;
 }
 
 .partners_section h2::after {
@@ -445,9 +442,6 @@ li .card-body p {
 }
 
 .partner-list {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 100%;
   margin: 0 auto;
   flex-wrap: wrap;
@@ -459,10 +453,8 @@ li .card-body p {
 }
 
 footer {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
   width: 100%;
+  justify-content: space-around;
   padding: 3rem 0;
   margin: 0 auto;
   background-color: var(--background);
@@ -599,7 +591,7 @@ footer .created p {
 
   .program_section h2,
   .featured_section h2 {
-    padding: 52px;
+    padding: 62px;
   }
 }
 

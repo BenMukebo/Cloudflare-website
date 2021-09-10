@@ -47,6 +47,13 @@ body {
   overflow-x: hidden;
 }
 
+h2 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  padding: 32px;
+}
+
 header {
   width: 100%;
   position: fixed;
@@ -264,11 +271,7 @@ article h4 {
 }
 
 .overView h2 {
-  font-size: 24px;
-  font-weight: 600;
-  line-height: 32px;
   width: 80%;
-  padding: 32px 0 0;
 }
 
 .overView h2::after {
@@ -340,9 +343,7 @@ footer .logo img {
 }
 
 .careers h2 {
-  font-size: 24px;
-  font-weight: 600;
-  line-height: 32px;
+  font-size: 26px;
   padding: 32px 0 0;
 }
 
@@ -366,9 +367,6 @@ footer .logo img {
 }
 
 .image-list {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
   width: 100%;
   margin: 2rem auto;
@@ -407,7 +405,6 @@ footer .logo img {
 .partners_section h2 {
   color: var(--primary);
   text-align: center;
-  padding: 32px;
 }
 
 .partners_section h2::after {
@@ -420,19 +417,14 @@ footer .logo img {
 }
 
 .partner-list {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 100%;
   margin: 0 auto;
   flex-wrap: wrap;
 }
 
 footer {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
   width: 100%;
+  justify-content: space-around;
   padding: 3rem 0;
   margin: 0 auto;
   background-color: #fff;
