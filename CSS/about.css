@@ -209,7 +209,7 @@ ul {
   opacity: 0.9;
   margin: 0 auto;
   text-align: center;
-  background-image: linear-gradient(rgba(206, 205, 205, 0.397), rgba(220, 224, 220, 0.521)), url('../images/about-img.png');
+  background-image: linear-gradient(rgba(238, 238, 238, 0.479), rgba(235, 235, 235, 0.521)), url('../images/about-img.png');
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;

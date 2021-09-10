@@ -213,7 +213,7 @@ h2 {
 .home_section {
   padding: 80px 24px 0;
   background-color: var(--primary);
-  background-image: linear-gradient(rgba(206, 205, 205, 0.685), rgba(220, 224, 220, 0.5)), url('../images/home-mobile.jpg');
+  background-image: linear-gradient(rgba(238, 238, 238, 0.87), rgb(235, 235, 235)), url('../images/home-mobile.jpg');
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
