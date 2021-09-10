@@ -601,6 +601,10 @@ footer .created p {
   .featured_section h2 {
     padding: 62px;
   }
+
+  footer .created p {
+    text-align: right;
+  }
 }
 
 @media screen and (min-width: 1100px) {

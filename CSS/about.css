@@ -565,4 +565,8 @@ footer .created p {
     font-size: 30px;
     line-height: 48px;
   }
+
+  footer .created p {
+    text-align: right;
+  }
 }
