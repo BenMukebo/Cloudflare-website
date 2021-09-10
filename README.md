@@ -45,7 +45,7 @@ Cloudflare has more than 50+ experienced designers and JS developers on board, w
 
 ## Loom Video
 
-[Loom Video Link]()
+[Loom Video Link](https://www.loom.com/share/1e55387188534bcb92b3d07d3670736d)
 
 ## Getting Started
 
