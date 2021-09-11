@@ -400,13 +400,13 @@ li .card-body p {
 }
 
 .featured_section .see-more {
-  width: 100%;
+  max-width: 600px;
   text-align: center;
   margin: 20px auto 50px;
 }
 
 .see-more button {
-  padding: 24px 160px;
+  padding: 20px 15%;
   font-size: 24px;
   color: var(--text-color);
   background-color: var(--background);
