@@ -82,16 +82,16 @@ For tracking linter errors locally you need to follow these steps:
 
 👤 **Kasongo Mukebo Ben**
 
-- GitHub: [@BenMukebo](https://github.com/BenMukebo)
-- Twitter: [@BenMukebo](https://twitter.com/BenMukebo)
-- LinkedIn: [Kasongo Mukebo Ben](https://www.linkedin.com/in/kasongo-mukebo-ben-591720205/)
+- GitHub: [](https://github.com/BenMukebo)
+- Twitter: [](https://twitter.com/BenMukebo)
+- LinkedIn: [](https://www.linkedin.com/in/kasongo-mukebo-ben-591720205/)
 
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/BenMukebo/Personal_Portfolio.git/issues/).
+Feel free to check the [issues page](../../issues/).
 
 ## Show your support
 
