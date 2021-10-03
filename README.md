@@ -82,9 +82,9 @@ For tracking linter errors locally you need to follow these steps:
 
 👤 **Kasongo Mukebo Ben**
 
-- GitHub: [](https://github.com/BenMukebo)
-- Twitter: [](https://twitter.com/BenMukebo)
-- LinkedIn: [](https://www.linkedin.com/in/kasongo-mukebo-ben-591720205/)
+- [GitHub](https://github.com/BenMukebo)
+- [Twitter](https://twitter.com/BenMukebo)
+- [LinkedIn](https://www.linkedin.com/in/kasongo-mukebo-ben-591720205/)
 
 
 ## 🤝 Contributing
