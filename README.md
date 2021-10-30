@@ -10,9 +10,9 @@ Cloudflare is a software development company that  build custom digital products
 
 - This is the page view:
 
-> | mobile version | desktop version|
-> |---------|----------|
-> | ![Screenshot1](https://user-images.githubusercontent.com/79058364/132776404-1507920b-bf12-4e55-beb3-185f397bf6e9.png)  | ![Screenshot2](https://user-images.githubusercontent.com/79058364/132776273-309ff1fd-c4ee-444c-969c-6f449d07b951.png) | 
+> || mobile version | desktop version||
+> |-|---------|----------|-|
+> || ![Screenshot1](https://user-images.githubusercontent.com/79058364/132776404-1507920b-bf12-4e55-beb3-185f397bf6e9.png)  | ![Screenshot2](https://user-images.githubusercontent.com/79058364/132776273-309ff1fd-c4ee-444c-969c-6f449d07b951.png) | 
 
 
 > Learning objectives: 
