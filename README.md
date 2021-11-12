@@ -4,9 +4,7 @@
 
 
 ## Description
-
-
-Cloudflare is a software development company that  build custom digital products for forward - thinking enterprises and startups. it has more than 50+ experienced designers and JS developers on board, With the main office based in Warsaw (Poland), we also operate in different locations, including the United States and the United Kingdom.
+Cloudflare Merkle Town is a website for a software development company that builds custom digital products for forward-thinking enterprises and startups. it has more than 50+ experienced designers and JS developers on board, With the main office based in Warsaw (Poland), we also operate in different locations, including the United States and the United Kingdom.
 
 - This is the page view:
 
