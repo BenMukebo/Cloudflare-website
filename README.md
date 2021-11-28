@@ -43,7 +43,7 @@ Cloudflare Merkle Town is a website for a software development company that buil
 
 ## Loom Video
 
-[Loom Video Link](https://www.loom.com/share/1e55387188534bcb92b3d07d3670736d)
+[Loom Video Link](https://www.loom.com/share/21006ba701894e098ef20806c352decf)
 
 ## Getting Started
 
