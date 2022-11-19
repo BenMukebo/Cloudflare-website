@@ -39,7 +39,7 @@ Cloudflare Merkle Town is a website for a software development company that buil
 
 ## Live Demo
 
-[Live Demo Link](https://benmukebo.github.io/Capstone_Project_One/)
+[Live Demo Link](https://cloudflare-tech.netlify.app/)
 
 ## Loom Video
 
